@@ -2,7 +2,7 @@
 
 [//]: # "contest-details-open"
 
-### Prize Pool TO BE FILLED OUT BY CYFRIN
+### Details
 
 - Starts: July 03, 2025 Noon UTC
 - Ends: July 10, 2025 Noon UTC
