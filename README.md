@@ -1,6 +1,6 @@
 # OrderBook
 
-[//]: # "contest-details-open"
+[//]: # (contest-details-open)
 
 ### Details
 
@@ -42,8 +42,8 @@
 
   [Order Book](https://www.investopedia.com/terms/o/order-book.asp)
 
-[//]: # "contest-details-close"
-[//]: # "scope-open"
+[//]: # (contest-details-close)
+[//]: # (scope-open)
 
 ## Scope (contracts)
 
@@ -59,8 +59,8 @@
   - Chain: Ethereum
   - Tokens: `wETH`, `wBTC`, `wSOL`, `USDC`
 
-[//]: # "scope-close"
-[//]: # "getting-started-open"
+[//]: # (scope-close)
+[//]: # (getting-started-open)
 
 ## Set-up
 
@@ -72,11 +72,11 @@ forge build
 forge test
 ```
 
-[//]: # "getting-started-close"
-[//]: # "known-issues-open"
+[//]: # (getting-started-close)
+[//]: # (known-issues-open)
 
 ## Known Issues
 
 None!
 
-[//]: # "known-issues-close"
+[//]: # (known-issues-close)
