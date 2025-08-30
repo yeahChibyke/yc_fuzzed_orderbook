@@ -2,6 +2,13 @@
 src = "src"
 out = "out"
 libs = ["lib"]
+[lint]
+exclude_lints = [
+    "mixed-case-variable",
+    "unused-import",
+    "screaming-snake-case-immutable",
+    "mixed-case-function",
+]
 remappings = ["openzeppelin-contracts/=lib/openzeppelin-contracts/"]
 
 # See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options
