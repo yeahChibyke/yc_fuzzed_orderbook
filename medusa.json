@@ -3,7 +3,7 @@
 		"workers": 10,
 		"workerResetLimit": 50,
 		"timeout": 0,
-		"testLimit": 0,
+		"testLimit": 10000,
 		"shrinkLimit": 5000,
 		"callSequenceLength": 100,
 		"pruneFrequency": 5,
@@ -14,7 +14,7 @@
 			"lcov"
 		],
 		"revertReporterEnabled": false,
-		"targetContracts": [],
+		"targetContracts": ["FuzzBook"],
 		"predeployedContracts": {},
 		"targetContractsBalances": [],
 		"constructorArgs": {},
@@ -85,11 +85,11 @@
 			"target": ".",
 			"solcVersion": "",
 			"exportDirectory": "",
-			"args": []
+			"args": ["--foundry-compile-all"]
 		}
 	},
 	"slither": {
-		"useSlither": true,
+		"useSlither": false,
 		"cachePath": "slither_results.json",
 		"args": []
 	},

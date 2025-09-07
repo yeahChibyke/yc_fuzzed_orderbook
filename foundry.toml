@@ -8,6 +8,7 @@ exclude_lints = [
     "unused-import",
     "screaming-snake-case-immutable",
     "mixed-case-function",
+    "unaliased-plain-import",
 ]
 remappings = ["openzeppelin-contracts/=lib/openzeppelin-contracts/"]
 
